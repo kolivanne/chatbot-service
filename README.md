@@ -66,6 +66,7 @@ chatbot-service/
 │   ├── api/
 │   │   └── routes/    
 │   ├── core/
+│   ├── providers/
 │   ├── schemas/
 │   ├── services/
 │   └── exceptions/

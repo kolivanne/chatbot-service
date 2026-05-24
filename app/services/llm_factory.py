@@ -1,11 +1,11 @@
 from app.core.config import settings
-from app.services.azure_openai_service import AzureOpenAIService
+from app.providers.azure_openai_provider import AzureOpenAIService
 from app.services.llm_service import LLMService
 
 # Bedrock wird hier nur als Platzhalter gezeigt,
 # um die Austauschbarkeit der Architektur zu verdeutlichen.
 # Die echte Implementierung wäre später AWS SDK basiert.
-from app.services.aws_bedrock_service import BedrockService
+from app.providers.aws_bedrock_provider import BedrockService
 
 
 def get_llm_service() -> LLMService:
