@@ -59,13 +59,18 @@ Gibt zurück, ob der Service läuft.
 ## Projektstruktur
 
 ```text
-app/
-├── api/          # HTTP-Endpunkte
-├── services/     # Logik für LLM-Anbindung
-├── schemas/      # Datenmodelle
-├── core/         # Konfiguration und Logging
-└── exceptions/   # Fehlerklassen
-└── tests/        # Tests
+chatbot-service/
+├── app/
+│   ├── main.py
+│   │
+│   ├── api/
+│   │   └── routes/    
+│   ├── core/
+│   ├── schemas/
+│   ├── services/
+│   └── exceptions/
+├── tests/
+
 ```
 
 ---
